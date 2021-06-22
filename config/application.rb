@@ -11,6 +11,9 @@ module BlogFlash
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
-    config.action_controller.permit_all_parameters = true
+
+    #config.action_controller.permit_all_parameters = true
+    #we commented out the above line that let everything through
+
   end
 end
